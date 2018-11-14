@@ -1,0 +1,31 @@
+{
+  "name": "Pure Dark",
+  "version": "1.0",
+  "description": "Pure Dark theme for chrome browser",
+  "manifest_version": 2,
+  
+  "theme": {
+    "images" : {
+      "theme_toolbar" : "images/theme_toolbar_dark.png" // image for the toolbar
+    },
+    "colors" :{
+      "buttons" : [ 160, 160, 160 ],
+      "frame" : [ 25, 25 , 25 ], // color of the top frame
+      "frame_inactive" : [ 60, 60, 60 ], // color of the top frame when window is unselected
+      "toolbar" : [ 50, 50, 50 ], // color of the toolbar
+      "tab_text" : [ 220, 220, 220 ], // color of the text in active tab
+      "background_tab" : [ 25, 25, 25 ], // color of the tab in the background
+      "background_tab_inactive" : [ 60, 60, 60 ], // color of the tab in the background when window is unselected
+      "bookmark_text" : [ 140, 140, 140 ],
+      "ntp_background" : [ 50, 50, 50 ], // page background color
+      "ntp_text" : [ 255, 255, 255 ], // hover color?
+      "ntp_link" : [ 220, 220, 220 ],
+      "ntp_header" : [ 140, 140, 140 ],
+      "ntp_section" : [ 140, 140, 140 ],
+      "button_background" : [ 25, 25, 25 ] // color of the min-max-close buttons
+    },
+    "properties" : {
+      "ntp_logo_alternate" : 1
+    }
+  }
+}
