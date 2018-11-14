@@ -1,6 +1,6 @@
 {
   "name": "Pure Dark",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "Pure Dark theme for chrome browser",
   "manifest_version": 2,
   
@@ -11,13 +11,13 @@
     "colors" :{
       "buttons" : [ 160, 160, 160 ],
       "frame" : [ 25, 25 , 25 ], // color of the top frame
-      "frame_inactive" : [ 60, 60, 60 ], // color of the top frame when window is unselected
+      "frame_inactive" : [ 55, 55, 55 ], // color of the top frame when window is unselected
       "toolbar" : [ 50, 50, 50 ], // color of the toolbar
       "tab_text" : [ 220, 220, 220 ], // color of the text in active tab
       "background_tab" : [ 25, 25, 25 ], // color of the tab in the background
-      "background_tab_inactive" : [ 60, 60, 60 ], // color of the tab in the background when window is unselected
+      "background_tab_inactive" : [ 55, 55, 55 ], // color of the tab in the background when window is unselected
       "bookmark_text" : [ 140, 140, 140 ],
-      "ntp_background" : [ 50, 50, 50 ], // page background color
+      "ntp_background" : [ 25, 25, 25 ], // page background color
       "ntp_text" : [ 255, 255, 255 ], // hover color?
       "ntp_link" : [ 220, 220, 220 ],
       "ntp_header" : [ 140, 140, 140 ],
